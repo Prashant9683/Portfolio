@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  margin: 20px;
+}
+
+.fa-solid {
+  color: black;
+  font-size: xx-large;
+}
+
+.work {
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+  /* align-items: flex-end; */
+  /* align-content: flex-end; */
+  /* justify-items: flex-end; */
+}
+
+/* .work {
+  height: 100px;
+  width: 60%;
+  margin-top: 25px;
+} */
+
+.my-name {
+  font-family: "Syne Mono", monospace;
+  font-size: 30px;
+}
+
+.name {
+  width: 37%;
+}
+
+.surname {
+  color: orangered;
+}
+
+p {
+  font-family: "Syne Mono", monospace;
+  margin: 0;
+}
+
+button {
+  background-color: white;
+  border-color: rgb(20, 20, 255);
+  color: rgb(20, 20, 255);
+  padding: auto;
+  margin: 40px auto;
+  border-radius: 600px;
+  width: 200px;
+  height: 70px;
+  font-size: 30px;
+  font-family: "Smooch Sans", sans-serif;
+  transition: color 0.75s, background-color 0.75s;
+}
+
+button:hover {
+  background-color: rgb(20, 20, 255);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+section {
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section {
+  text-align: center;
+}
+
+.section p {
+  padding: 0;
+  margin: 0;
+  font-size: 100px;
+}
+
+span {
+  font-family: "Syne Mono", monospace;
+  font-size: 100px;
+  margin-right: 50px;
+}
+
+.last {
+  color: orangered;
+}
+
+section {
+  height: 600px;
+}
+
+@media (max-width: 700px) {
+  .section {
+    padding-top: 40px;
+  }
+  .section p {
+    font-size: 4em;
+  }
+  span {
+    font-size: 4em;
+  }
+}
+
+@media (max-width: 450px) {
+  .section {
+    padding-top: 70px;
+    text-align: center;
+  }
+  .section p {
+    font-size: 70px;
+  }
+  span {
+    font-size: 70px;
+  }
+}
