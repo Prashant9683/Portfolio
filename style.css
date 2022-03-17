@@ -17,16 +17,7 @@ header {
   width: 60%;
   display: flex;
   justify-content: flex-end;
-  /* align-items: flex-end; */
-  /* align-content: flex-end; */
-  /* justify-items: flex-end; */
 }
-
-/* .work {
-  height: 100px;
-  width: 60%;
-  margin-top: 25px;
-} */
 
 .my-name {
   font-family: "Syne Mono", monospace;
@@ -67,6 +58,7 @@ button:hover {
 }
 
 section {
+  margin: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -96,27 +88,34 @@ section {
   height: 600px;
 }
 
-@media (max-width: 700px) {
-  .section {
-    padding-top: 40px;
+@media (max-width: 768px) {
+  .work {
+    width: 52%;
   }
   .section p {
-    font-size: 4em;
+    font-size: 3.5em;
   }
   span {
-    font-size: 4em;
+    font-size: 3.5em;
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 426px) {
+  .work {
+    width: 52%;
+  }
   .section {
-    padding-top: 70px;
     text-align: center;
   }
   .section p {
-    font-size: 70px;
+    font-size: 3em;
   }
   span {
-    font-size: 70px;
+    font-size: 3em;
+  }
+  button {
+    height: 2em;
+    width: 5.5em;
+    font-size: 1.5em;
   }
 }
