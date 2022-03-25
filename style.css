@@ -4,28 +4,20 @@ body {
 
 header {
   display: flex;
+  justify-content: space-between;
   width: 100%;
-  margin: 20px;
+  margin-top: 20px;
 }
 
 .fa-solid {
-  color: black;
+  margin-right: 20px;
   font-size: xx-large;
 }
 
-.work {
-  width: 60%;
-  display: flex;
-  justify-content: flex-end;
-}
-
 .my-name {
+  margin-left: 20px;
   font-family: "Syne Mono", monospace;
   font-size: 30px;
-}
-
-.name {
-  width: 37%;
 }
 
 .surname {
@@ -58,7 +50,6 @@ button:hover {
 }
 
 section {
-  margin: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -88,34 +79,39 @@ section {
   height: 600px;
 }
 
-@media (max-width: 768px) {
-  .work {
-    width: 52%;
+@media (max-width: 700px) {
+  .section {
+    padding-top: 40px;
   }
   .section p {
-    font-size: 3.5em;
+    font-size: 4em;
   }
   span {
-    font-size: 3.5em;
+    font-size: 4em;
   }
 }
 
-@media (max-width: 426px) {
-  .work {
-    width: 52%;
+@media (max-width: 450px) {
+  .section {
+    padding-top: 70px;
+    text-align: center;
   }
+  .section p {
+    font-size: 70px;
+  }
+  span {
+    font-size: 70px;
+  }
+}
+
+@media (max-width: 235px) {
   .section {
     text-align: center;
   }
   .section p {
-    font-size: 3em;
+    font-size: 40px;
   }
   span {
-    font-size: 3em;
-  }
-  button {
-    height: 2em;
-    width: 5.5em;
-    font-size: 1.5em;
+    font-size: 40px;
   }
 }
